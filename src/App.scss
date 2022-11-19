@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+// fonts
+@font-face {
+  font-family: 'Broken Console';
+  font-weight: normal;
+  src: url('./styles/fonts/Broken\ Console\ Regular.eot?iefix') format("embedded-opentype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Broken Console';
+  font-weight: bold;
+  src: url('./styles/fonts/Broken\ Console\ Bold.eot?iefix') format("embedded-opentype");
+  font-weight: 700;
+}
