@@ -7,6 +7,14 @@
 @import './styles/components/layout/Story/childs/ShowTitleStyle.scss';
 @import './styles/components/layout/Story/childs/ShowChooseStyle.scss';
 
+// components > layout > Labs
+@import './styles/components/layout/Labs/LabsStyle.scss';
+@import './styles/components/layout/Labs/childs/ShowLabsStyle.scss';
+@import './styles/components/layout/Labs/childs/ShowSideUIStyle.scss';
+@import './styles/components/layout/Labs/childs/ShowDummyUIStyle.scss';
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
