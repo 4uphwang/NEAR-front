@@ -1,0 +1,39 @@
+diff --git a/node_modules/react-star-wars-crawl/lib/Crawl.js b/node_modules/react-star-wars-crawl/lib/Crawl.js
+index e5c81da..57456cb 100644
+--- a/node_modules/react-star-wars-crawl/lib/Crawl.js
++++ b/node_modules/react-star-wars-crawl/lib/Crawl.js
+@@ -26,7 +26,7 @@ var styles = {
+   container: {
+     width: '100%',
+     height: '100%',
+-    background: '#000',
++    background: 'transparent',
+     overflow: 'hidden'
+   },
+   fade: {
+@@ -34,13 +34,15 @@ var styles = {
+     width: '100%',
+     minHeight: '60vh',
+     top: '-25px',
+-    backgroundImage: 'linear-gradient(0deg, transparent, black 75%)',
++    // backgroundImage: 'linear-gradient(0deg, transparent, black 75%)',
+     zIndex: 1
+   },
+   textContainer: {
+     display: 'flex',
+     justifyContent: 'center',
+     position: 'relative',
++    // position: 'absolute',
++    // top: '0px',
+     height: '800px',
+     color: '#feda4a',
+     fontFamily: "'Pathway Gothic One', sans-serif",
+@@ -141,7 +143,7 @@ var Crawl = function (_Component) {
+   return Crawl;
+ }(_react.Component);
+ 
+-Crawl.PropTypes = {
++Crawl.propTypes = {
+   /**
+    * Any nodes in addition to provided text
+    */

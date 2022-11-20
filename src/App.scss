@@ -50,3 +50,17 @@
   src: url('./styles/fonts/Broken\ Console\ Bold.eot?iefix') format("embedded-opentype");
   font-weight: 700;
 }
+
+@font-face {
+  font-family: 'Dogica Pixel';
+  font-weight: normal;
+  src: url('./styles/fonts/dogicapixel.ttf') format("true-type");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Dogica Pixel';
+  font-weight: bold;
+  src: url('./styles/fonts/dogicapixelbold.ttf') format("true-type");
+  font-weight: 700;
+}

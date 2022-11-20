@@ -1,5 +1,9 @@
-// components > layout
-@import './styles/components/layout/NavStyle.scss';
+// components > layout > Nav
+@import './styles/components/layout/Nav/NavStyle.scss';
+
+// components > layout > Story
+@import './styles/components/layout/Story/StoryStyle.scss';
+@import './styles/components/layout/Story/childs/ShowTitleStyle.scss';
 
 body {
   margin: 0;
