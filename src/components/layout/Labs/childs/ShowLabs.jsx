@@ -5,6 +5,31 @@ import Grid2 from '../../../../assets/Grid2.png';
 import Grid3 from '../../../../assets/Grid3.png';
 
 const ShowLabs = () => {
+
+    const ShowSpores = () => {
+        <div>
+
+        </div>
+    }
+
+    const ShowMushrooms = () => {
+        <div>
+            
+        </div>
+    }
+
+    const ShowSpSpores = () => {
+        <div>
+            
+        </div>
+    }
+
+    const ShowSpMushrooms = () => {
+        <div>
+            
+        </div>
+    }
+
     return (
         <>
             <div className="LabsBox">
