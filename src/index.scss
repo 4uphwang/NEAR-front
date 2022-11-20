@@ -3,7 +3,9 @@
 
 // components > layout > Story
 @import './styles/components/layout/Story/StoryStyle.scss';
+@import './styles/components/layout/Story/childs/ShowBGStyle.scss';
 @import './styles/components/layout/Story/childs/ShowTitleStyle.scss';
+@import './styles/components/layout/Story/childs/ShowChooseStyle.scss';
 
 body {
   margin: 0;
