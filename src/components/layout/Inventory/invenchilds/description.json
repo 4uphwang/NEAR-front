@@ -1,0 +1,49 @@
+[
+    {
+        "id" : "1",
+        "type": "initmushroom",
+        "Rank": "1",
+        "Staking Reward": "5"
+    },
+    {
+        "id" : "2",
+        "type": "mushroom",
+        "Rank": "1",
+        "taking Reward": "3"
+    },
+    {
+        "id" : "3",
+        "type": "spore",
+        "Rank": "2"
+    },
+    {
+        "id" : "4",
+        "type": "mushroom",
+        "Rank": "1",
+        "taking_Reward": "3"
+    },
+    {
+        "id" : "5",
+        "type": "mushroom",
+        "Rank": "1",
+        "taking_Reward": "3"
+    },
+    {
+        "id" : "6",
+        "type": "mushroom",
+        "Rank": "1",
+        "taking_Reward": "3"
+    },
+    {
+        "id" : "7",
+        "type": "mushroom",
+        "Rank": "1",
+        "taking_Reward": "3"
+    },
+    {
+        "id" : "8",
+        "type": "mushroom",
+        "Rank": "1",
+        "taking_Reward": "3"
+    }
+]
