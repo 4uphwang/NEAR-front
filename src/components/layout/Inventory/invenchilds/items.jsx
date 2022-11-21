@@ -18,7 +18,7 @@ const ShowItems = (/*{ handleFlow }*/) => {
                 <Row>
                     {Itemsarr.map((it) => (
                         <Col xxs={6} xs={5} sm={5} md={4} lg={2}>
-                            <ItemList key={it.id} {...it} />
+                            <ItemList key={it.TokenID} {...it} />
                         </Col>
                     ))}
                 </Row>

@@ -13,8 +13,10 @@
     top: 100px;
 }
 
-.Filter .Box {
-    right:15%;
+.Filter .ButtonBox {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
 }
 
 .FilterIcon {

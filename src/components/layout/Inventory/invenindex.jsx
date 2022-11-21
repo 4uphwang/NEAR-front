@@ -25,7 +25,7 @@ const Inventory = () => {
 
     const filter = () => {
         return <div className="Filter">
-            <Col className="Box">
+            <Col className="ButtonBox">
                 <img src={FilterIcon} className="FilterIcon" />
                 <button className="ButtonALL">
                     ALL

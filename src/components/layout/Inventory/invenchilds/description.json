@@ -1,49 +1,49 @@
 [
     {
-        "id" : "1",
-        "type": "initmushroom",
-        "Rank": "1",
-        "Staking Reward": "5"
-    },
-    {
-        "id" : "2",
+        "TokenID" : "1",
         "type": "mushroom",
         "Rank": "1",
-        "taking Reward": "3"
+        "Staking_Reward": "3"
     },
     {
-        "id" : "3",
+        "TokenID" : "2",
+        "type": "mushroom",
+        "Rank": "1",
+        "Staking_Reward": "3"
+    },
+    {
+        "TokenID" : "3",
         "type": "spore",
         "Rank": "2"
     },
     {
-        "id" : "4",
+        "TokenID" : "4",
         "type": "mushroom",
         "Rank": "1",
-        "taking_Reward": "3"
+        "Staking_Reward": "3"
     },
     {
-        "id" : "5",
+        "TokenID" : "5",
         "type": "mushroom",
         "Rank": "1",
-        "taking_Reward": "3"
+        "Staking_Reward": "3"
     },
     {
-        "id" : "6",
+        "TokenID" : "6",
         "type": "mushroom",
         "Rank": "1",
-        "taking_Reward": "3"
+        "Staking_Reward": "3"
     },
     {
-        "id" : "7",
+        "TokenID" : "7",
         "type": "mushroom",
         "Rank": "1",
-        "taking_Reward": "3"
+        "Staking_Reward": "3"
     },
     {
-        "id" : "8",
+        "TokenID" : "8",
         "type": "mushroom",
         "Rank": "1",
-        "taking_Reward": "3"
+        "Staking_Reward": "3"
     }
 ]

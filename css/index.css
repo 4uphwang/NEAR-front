@@ -310,11 +310,13 @@
   align-items: center;
   width: 100%;
   height: 50px;
-  top: 97px;
+  top: 100px;
 }
 
-.Filter .Box {
-  right: 15%;
+.Filter .ButtonBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
 }
 
 .FilterIcon {
@@ -336,7 +338,6 @@
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  /* identical to box height, or 133% */
   /* Main/Yellow */
   color: #FCD017;
   background: #000000;
@@ -354,8 +355,6 @@
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  /* identical to box height, or 133% */
-  /* Main/Yellow */
   color: #ffffff;
   background: #000000;
   border: 2px solid #FFFFFF;
@@ -372,8 +371,6 @@
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  /* identical to box height, or 133% */
-  /* Main/Yellow */
   color: #ffffff;
   background: #000000;
   border: 2px solid #FFFFFF;
@@ -425,53 +422,110 @@
   background: #212121;
 }
 
-.ItemName {
+.Description .ItemName {
   width: auto;
   max-width: 160px;
   margin-left: 10px;
   margin-right: 10px;
   line-height: 32px;
   /* font */
-  font-family: "Prompt";
+  font-family: "Broken Console";
   font-style: bold;
-  font-weight: 700;
-  font-size: 19px;
+  font-weight: 600;
+  font-size: 15px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   color: #F9F9F9;
 }
 
-.ItemDescription {
-  display: flex;
-  justify-content: flex-start;
+.Description .ItemDescription {
+  max-width: 160px;
+  margin-top: 5px;
   margin-left: 10px;
-  top: 10px;
-  font-family: "Manrope";
-  font-style: normal;
+  margin-right: 10px;
+  text-align: start;
+  font-family: "Broken Console";
+  font-style: Medium;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13px;
+  white-space: normal;
+  word-break: word;
   line-height: 20px;
-  /* or 167% */
-  /* white Transparent/100 */
   color: #F9F9F9;
 }
 
 .ThiefList {
   position: absolute;
-  width: 144px;
-  height: 24px;
-  left: 95px;
+  min-height: 30px;
+  left: 100px;
   top: 137px;
   /* Headline/5 Regular */
   font-family: "Broken Console";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 100%;
+  font-size: 30px;
   /* identical to box height, or 24px */
   /* Main/Yellow */
   color: #FCD017;
+}
+
+.ThiefListLayout {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+}
+
+.Items {
+  width: 180px;
+  height: 300px;
+  /* Box/yellow */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), rgba(252, 208, 23, 0.8);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+
+.Description {
+  position: absolute;
+  width: 180px;
+  height: 130px;
+  top: 170px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 0px 0px 25px 25px;
+  background: #212121;
+}
+
+.ThiefName {
+  max-width: 160px;
+  margin: 10px;
+  line-height: 32px;
+  /* font */
+  font-family: "Broken Console";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #F9F9F9;
+}
+
+.ThiefDescription {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-family: "Broken Console";
+  font-style: Medium;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #F9F9F9;
 }
 
 body {
