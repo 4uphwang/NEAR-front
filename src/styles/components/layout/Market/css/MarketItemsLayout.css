@@ -1,4 +1,4 @@
-.Items {
+.MarketItems {
   width: 180px;
   height: 300px;
   /* Box/yellow */
@@ -10,11 +10,11 @@
   margin-right: 25px;
 }
 
-.Items:hover {
+.MarketItems:hover {
   outline: 2px solid #FFFFFF;
 }
 
-.Box {
+.MarketBox {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -24,14 +24,14 @@
   padding-right: 5%;
 }
 
-.ItemImg {
+.MarketItemImg {
   width: 105.53px;
   height: 116.63px;
   align-items: center;
   margin-top: 25px;
 }
 
-.Description {
+.MarketDescription {
   position: absolute;
   width: 180px;
   height: 130px;
@@ -43,7 +43,7 @@
   background: #212121;
 }
 
-.ItemName {
+.MarketItemName {
   width: auto;
   max-width: 160px;
   margin: 10px;
@@ -59,7 +59,7 @@
   color: #F9F9F9;
 }
 
-.ItemDescription {
+.MarketItemDescription {
   max-width: 160px;
   margin-top: 5px;
   margin-left: 10px;
@@ -73,4 +73,4 @@
   word-break: word;
   line-height: 20px;
   color: #F9F9F9;
-}/*# sourceMappingURL=ItemsLayout.css.map */
+}/*# sourceMappingURL=MarketItemsLayout.css.map */

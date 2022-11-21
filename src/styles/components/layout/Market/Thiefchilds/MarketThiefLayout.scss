@@ -1,4 +1,10 @@
-.Items {
+.MarketThiefListLayout {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+}
+
+.MarketItems {
     width: 180px;
     height: 300px;
     /* Box/yellow */
@@ -9,30 +15,9 @@
     margin-bottom: 25px;
     margin-right: 25px;
 }
-.Items:hover {
-    outline: 2px solid #FFFFFF;
-}
 
 
-.Box {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 180px;
-    padding-left:5%;
-    padding-right: 5%;
-}
-
-
-.ItemImg {
-    width: 105.53px;
-    height: 116.63px;
-    align-items: center;
-    margin-top: 25px;
-}
-
-.Description {
+.MarketDescription {
     position: absolute;
     width:180px;
     height: 130px;
@@ -45,17 +30,16 @@
 }
 
 
-.ItemName {
-    width: auto;
+.MarketThiefName {
     max-width: 160px;
     margin: 10px;
-    line-height: 30px;
-    
+    line-height: 32px;
+
     /* font */
     font-family: 'Broken Console';
     font-style: bold;
     font-weight: 600;
-    font-size: 19px;
+    font-size: 20px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -63,19 +47,15 @@
     color: #F9F9F9;
 }
 
-.ItemDescription {
-    max-width: 160px;
-    margin-top: 5px;
+.MarketThiefDescription {
+    display: flex;
+    justify-content: flex-start;
     margin-left: 10px;
-    margin-right: 10px;
-
-    text-align: start;
+    margin-top: 5px;
     font-family: 'Broken Console';
     font-style: Medium;
     font-weight: 500;
     font-size: 16px;
-    white-space: normal;
-    word-break: word;
-    line-height: 20px;
+    line-height: 15px;
     color: #F9F9F9;
 }

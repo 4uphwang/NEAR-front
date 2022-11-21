@@ -1,4 +1,4 @@
-.Items {
+.MarketItems {
     width: 180px;
     height: 300px;
     /* Box/yellow */
@@ -9,12 +9,11 @@
     margin-bottom: 25px;
     margin-right: 25px;
 }
-.Items:hover {
+.MarketItems:hover {
     outline: 2px solid #FFFFFF;
 }
 
-
-.Box {
+.MarketBox {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -25,14 +24,14 @@
 }
 
 
-.ItemImg {
+.MarketItemImg {
     width: 105.53px;
     height: 116.63px;
     align-items: center;
     margin-top: 25px;
 }
 
-.Description {
+.MarketDescription {
     position: absolute;
     width:180px;
     height: 130px;
@@ -45,7 +44,7 @@
 }
 
 
-.ItemName {
+.MarketItemName {
     width: auto;
     max-width: 160px;
     margin: 10px;
@@ -63,7 +62,7 @@
     color: #F9F9F9;
 }
 
-.ItemDescription {
+.MarketItemDescription {
     max-width: 160px;
     margin-top: 5px;
     margin-left: 10px;
