@@ -137,3 +137,42 @@
     width: 60px;
     height: 60px;
 }
+
+.LabsTree {
+    width: 496px;
+    height: 619px;
+    background-image: url('../../../../../assets/LabsTree.png');
+}
+
+.GrowingStatus {
+    position: absolute;
+    .GrowingOne{
+        position: absolute;
+        width: 33px;
+        left: 190px;
+        top:250px;
+        transform: rotate(-20deg);
+    }   
+    .GrowingTwo{
+        position: absolute;
+        width: 33px;
+        left: 260px;
+        top:280px;
+        transform: rotate(8deg);
+    } 
+    .GrowingThree{
+        position: absolute;
+        width: 33px;
+        left: 200px;
+        top:340px;
+        transform: rotate(-5deg);
+    }
+    .GrowingFour{
+        position: absolute;
+        width: 33px;
+        left: 260px;
+        top:390px;
+        transform: rotate(20deg);
+    }
+}
+

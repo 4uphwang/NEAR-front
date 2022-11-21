@@ -82,6 +82,31 @@ const ShowLabs = () => {
         )
     }
 
+    const MushroomElement = (val) => {
+        switch (val) {
+            case 1:
+                return (<img src={MushroomAdult} className="GrowingOne" />);
+            case 2:
+                return (<img src={MushroomAdult} className="GrowingTwo" />);
+            case 3:
+                return (<img src={MushroomAdult} className="GrowingThree" />);
+            case 4:
+                return (<img src={MushroomAdult} className="GrowingFour" />);
+        }
+    }
+
+
+    const GrowingStatus = () => {
+        return (
+            <div className="GrowingStatus">
+                {MushroomElement(1)}
+                {MushroomElement(2)}
+                {MushroomElement(3)}
+                {MushroomElement(4)}
+            </div>
+        )
+    }
+
     return (
         <>
             <div className="LabsBox">
@@ -89,7 +114,9 @@ const ShowLabs = () => {
                 {ShowMushrooms()}
                 {ShowSpSpores()}
                 {ShowSpMushrooms()}
-                <img src={LabsTree} />
+                <div className="LabsTree">
+                    {GrowingStatus()}
+                </div>
             </div>
         </>
 
